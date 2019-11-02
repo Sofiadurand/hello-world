@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insert into applicants values(UNIX_TIMESTAMP(now())*1000,UNIX_TIMESTAMP(now())*1000,'金开石','1050376715’,’产品经理','2018年07月10日','北京师范大学','1359','http://www.jnshu.com/school/28015/daily','如果我不能在IT特训营拼尽全力，为自己以后的修行路上打好基础，就让我变胖2斤！','李天宇','朋友推荐');
+
+
+insert into applicants(
+create_at,
+update_at,
+name,
+qq,
+profession,
+join_date,
+school,
+online_id,
+diary_url,
+will,
+bro,
+knowfrom) 
+
+values (
+UNIX_TIMESTAMP(now())*1000,
+UNIX_TIMESTAMP(now())*1000,
+'金开石',
+'1050376715',
+'产品经理',
+'2018年07月10日',
+'北京师范大学',
+'1359',
+'http://www.jnshu.com/school/28015/daily',
+'如果我不能在IT 特训营拼尽全力，为自己以后的修行路上打好基础，就让我变胖2斤！',
+'李天宇',
+'朋友推荐');
